@@ -43,3 +43,18 @@ td {
   border-bottom: 1px solid #cecfd5;
   padding: 10px 15px;
 }
+
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
+#grid ul{
+  padding-left: 33px;
+}
+
+@media(max-width:800px){
+  #grid{
+    display: block;
+  }
+}
